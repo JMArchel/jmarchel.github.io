@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,600;0,700;0,800;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,500&display=swap');
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fffffe;
+    color: #1a2238;
+    font-size: 0.9rem;
+}
+body::-webkit-scrollbar {
+    width: 1em;
+}
+   
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+   
+body::-webkit-scrollbar-thumb {
+    background-color: #f4db7d;
+    outline: 1px solid #c2a643;
+}
+p{
+    margin-bottom: 0.1rem;
+}
+h1,h2,h4,h5{
+    font-family: 'Taviraj', serif;
+    color: #ff6a3d;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+h1{
+    font-size: 4.3rem;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+}
+h2{
+    font-family: 'Taviraj', serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    background-color: #f4db7d;
+    width: 50rem;
+    border-radius: 2.4rem;
+}
+h3{
+    font-size: 10rem;
+    color: #ff6a3d;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 1rem;
+}
+h4{
+    font-size: 1.8rem;
+    border-bottom: 0.3rem solid #f4db7d;
+}
+nav{
+    background-color: #1a2238;
+    color: #ffffff;
+}
+.nav{
+    margin-right: 1rem;
+}
+.navbar-brand{
+    font-family: 'Taviraj', serif;
+    color: #ffffff;
+    margin-left: 1rem;
+    width: 20rem;
+}
+.navbar-brand:hover{
+    color: #ff6a3d;;
+}
+.nav-item{
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+.nav-link:link, .nav-link:visited{
+    color: #ffffff;
+    text-align: center;
+    border-radius: 2rem;
+    transition: all 0.5s ease;
+}
+.nav-link:hover{
+    background-color: #ff6a3d;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+.nav-link:active{
+    background-color: #315659;
+}
+.aboutme{
+    background-color: #1a2238;
+    color: #fffffe;
+    border-bottom-left-radius: 80% 15%;
+    border-bottom-right-radius: 80% 15%;
+    padding: 8rem 6rem 7rem 8rem;
+}
+.info{
+    font-size: 1.1rem;
+    text-align: justify;
+    text-justify: inter-word;
+    text-indent: 4rem;
+}
+.profile{
+    margin-top: 2rem;
+    width: 20rem;
+    border-radius: 50%;
+    border: 1rem solid #9daaf2;
+}
+.resume{
+    padding: 2rem 5rem 1rem 5rem;
+}
+.linkedin:link, .linkedin:visited{
+    text-decoration: none;
+    color: #ff6a3d;
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+}
+.linkedin:hover{
+    color: #a33817;
+    background-color: #f4db7d;
+    border-radius: 0.3rem;
+}
+.first{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.second{
+    font-size: 1.1rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.left{
+    text-align: right;
+}
+.description{
+    padding-left: 2.5rem;
+}
+.projects{
+    background-color: #1a2238;
+    color: #fffffe;
+    border-top-left-radius: 90% 5%;
+    border-top-right-radius: 90% 5%;
+    padding: 2rem 3rem 0rem 3rem;
+    margin-top: 3rem;
+}
+.carousel{
+    background:#9daaf2;
+    border: 1rem solid #9daaf2;
+    border-radius: 1rem;
+}
+.title_right{
+    font-family: 'Taviraj', serif;
+    font-weight: 900;
+    font-size: 2rem;
+    border-left: 0.5rem solid #f4db7d;
+    padding-left: 0.5rem;
+}
+.title_left{
+    font-family: 'Taviraj', serif;
+    font-weight: 900;
+    font-size: 2rem;
+    border-right: 0.5rem solid #f4db7d;
+    padding-right: 0.5rem;
+    text-align: end;
+}
+.language_desc_right{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #fffffe;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+}
+.language_desc_left{
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #fffffe;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+    text-align: end;
+}
+.buttons{
+    text-decoration: none;
+    background-color: #f4db7d;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    border: 0rem solid;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #1a2238;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    transition: all 0.5s ease;
+}
+.buttons:hover{
+    background-color: #ff6a3d;
+    color: #fffffe;
+}
