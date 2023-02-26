@@ -2,7 +2,14 @@
 
 :root{
     /*font-size-text*/
+    --fs-l-6: 60px;
+    --fs-l-5: 50px;
+    --fs-l-4: 45px;
+    --fs-l-3: 40px;
+    --fs-l-2: 35px;
+    --fs-l-1: 30px;
     --fs-1: 24px;
+    --fs-1-2: 20px;
     --fs-2: 18px;
     --fs-3: 17px;
     --fs-4: 16px;
@@ -94,7 +101,7 @@ nav{
 }
 .logo p{
     font-weight: var(--fw-700);
-    font-size: 20px;
+    font-size: var(--fs-1-2);
     color: var(--c-red1);
 }
 .logo p:hover, .logo p:active{
@@ -155,12 +162,12 @@ nav button:hover{
     min-height: 95vh;
 }
 #head h1{
-    font-size: 60px;
+    font-size: var(--fs-l-6);
     font-weight: var(--fw-700);
     color: var(--c-brown1);
 }
 #head h2{
-    font-size: 19px;
+    font-size: var(--fs-2);
     font-weight: var(--fw-400);
     width: 47%;
     margin: 15px 0 20px;
@@ -184,7 +191,7 @@ nav button:hover{
 #about{
     background-color: var(--c-white2);
     padding-top: 65px;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
 }
 .about-image{
     width: 95%;
@@ -217,7 +224,7 @@ nav button:hover{
 }
 .about-info h3{
     color: var(--c-red1);
-    font-size: 40px;
+    font-size: var(--fs-l-4);
 }
 .about-info article{
     padding: 20px 0 0;
@@ -228,12 +235,12 @@ nav button:hover{
     padding-bottom: 60px;
 }
 .about-extension-1 h3{
-    font-size: var(--fs-1);
+    font-size: var(--fs-l-2);
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .about-extension-1 h5{
-    font-size: var(--fs-4);
+    font-size: var(--fs-2);
 }
 .about-education1, .about-education2{
     display: inline-flex;
@@ -259,7 +266,7 @@ nav button:hover{
     text-align: center;
 }
 .about-extension-2 h3{
-    font-size: var(--fs-1);
+    font-size: var(--fs-l-2);
 }
 .about-extension-2 p{
     width: 60%;
@@ -331,7 +338,7 @@ nav button:hover{
     background: var(--c-brown1);
     color: var(--c-white2);
     padding: 1px 8px;
-    font-size: 12px;
+    font-size: var(--fs-6);
     border-radius: 3px;
     opacity: 0;
     animation: showText2 0.5s 1.5s linear forwards;
@@ -359,16 +366,16 @@ nav button:hover{
 .about-extension-3 h3{
     text-align: center;
     margin-bottom: 50px;
-    font-size: var(--fs-1);
+    font-size: var(--fs-l-2);
 }
 .about-info .experience{
     margin: 20px 0;
 }
 .experience h5{
-    font-size: 20px;
+    font-size: var(--fs-2);
 }
 .experience p{
-    font-size: var(--fs-4);
+    font-size: var(--fs-5);
     padding-left: 20px;
 }
 .other-content i{
@@ -381,7 +388,7 @@ nav button:hover{
     padding-bottom: 100px;
 }
 #service .title{
-    font-size:var(--fs-1);
+    font-size:var(--fs-l-2);
     padding-bottom: 30px;
     text-align: center;
 }
@@ -428,7 +435,7 @@ nav button:hover{
 .back-face .info h3{
     text-align: center;
     padding-bottom: 10px;
-    font-size: 20px;
+    font-size: var(--fs-1);
 }
 .back-face .info p{
     font-size: var(--fs-5);
@@ -441,44 +448,114 @@ nav button:hover{
 /*work*/
 #work{
     background-color: var(--c-white2);
+    padding-bottom: 100px;
 }
 #work h3{
-    font-size: var(--fs-1);
+    font-size: var(--fs-l-2);
     text-align: center;
     padding-top: 60px;
 }
 #work .project-info{
     width: 60%;
-    padding: 20px 0 60px;
+    padding: 30px 0 120px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    font-size: var(--fs-3);
 }
-
-
-
-
-
-
-/*contact*/
-.btn{
-    bottom: 30px;
-    right: 30px;
-    background-color: var(--c-white1);
-    color: var(--c-red1);
-    border: 1px solid transparent;
-    padding: 5px 10px;
-    font-size: var(--fs-4);
+#work .row{
+    margin-bottom: 150px;
+}
+#work h4, #work p{
+    text-align: center;
+}
+#work h4{
+    font-size: var(--fs-l-1);
     font-weight: var(--fw-600);
-    cursor: pointer;
-    border-radius: 20px;
+    padding-bottom: 5px;
+    line-height: 1.1;
 }
-.btn:hover{
-    background-color: var(--c-red1);
+#work p{
+    margin-bottom: 20px;
+}
+#work p a{
     color: var(--c-white1);
+    background-color: var(--c-red1);
+    padding: 1px 20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0;
+    font-size: var(--fs-6);
+    font-weight: var(--fw-500);
+    transition: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+#work p a:hover, #work p a:active{
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: var(--c-red2);
+}
+.project-image{
+    width: 100%;
+    height: 235px;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.project-image img{
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    transition: 0.75s;
+    border-radius: 15px;
+}
+.project-image:hover img{
+    transform: scale(1.15);
+    opacity: 1;
+}
+.project-text-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.project-text-1 img{
+    height: 40px;
+}
+.project-text-1 article{
+    font-size: var(--fs-4);
+    font-weight: var(--fw-400);
+    text-align: justify;
+    padding: 0 20px 10px;
+}
+.project-text-1 .logo{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.project-text-1 div img{
+    margin: 10px;
 }
 
 /*popup*/
+.btn{
+    font-size: var(--fs-5);
+    font-weight: var(--fw-500);
+    text-decoration: none;
+    background: var(--c-brown);
+    padding: 7px 20px;
+    border-radius: 20px;
+    border-bottom-right-radius: 0px;
+    transition: ease-in-out 0.75s;
+    color: var(--c-white);
+    border:0 solid;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.btn:hover{
+    background: var(--c-brown1);
+    border-bottom-right-radius: 20px;
+}
 .popup{
     position: fixed;
     bottom: 30px;
@@ -547,6 +624,10 @@ footer span{
 footer p{
     margin-bottom: 10px;
     padding: 0 20%;
+}
+footer .foot-info{
+    display: flex;
+    justify-content: center;
 }
 footer article{
     width: 80%;
