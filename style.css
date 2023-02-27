@@ -463,9 +463,6 @@ nav button:hover{
     text-align: center;
     font-size: var(--fs-3);
 }
-#work .row{
-    margin-bottom: 150px;
-}
 #work h4, #work p{
     text-align: center;
 }
@@ -475,8 +472,9 @@ nav button:hover{
     padding-bottom: 5px;
     line-height: 1.1;
 }
-#work p{
-    margin-bottom: 20px;
+#work .row{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 #work p a{
     color: var(--c-white1);
@@ -515,7 +513,7 @@ nav button:hover{
     transform: scale(1.15);
     opacity: 1;
 }
-.project-text-1{
+.project-text-1, .profile{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -530,12 +528,33 @@ nav button:hover{
     padding: 0 20px 10px;
 }
 .project-text-1 .logo{
+    padding-top: 30px;
+}
+.project-text-1 .logo, .profile-top, .profile-bottom{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
 }
 .project-text-1 div img{
     margin: 10px;
+}
+.profile{
+    padding-bottom: 150px;
+}
+.profile-info{
+    font-size: var(--fs-6);
+}
+.profile-top, .profile-bottom{
+    padding: 8px 0px;
+    margin-left:5px;
+    margin-right: 5px;
+    border-radius: 100px;
+    background-color: var(--c-white1);
+    box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.05);
+}
+.profile-bottom img, .profile-top img{
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 8px;
 }
 
 /*popup*/
@@ -624,6 +643,7 @@ footer span{
 footer p{
     margin-bottom: 10px;
     padding: 0 20%;
+    font-size: var(--fs-5);
 }
 footer .foot-info{
     display: flex;
