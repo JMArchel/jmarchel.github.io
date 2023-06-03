@@ -316,6 +316,7 @@ nav button:hover{
 .bar .progress-line.css span{width: 60%;}
 .bar .progress-line.js span{width: 40%;}
 .bar .progress-line.java span{width: 50%;}
+.bar .progress-line.talend span{width: 50%;}
 .progress-line span::before{
     position: absolute;
     content: "";
@@ -353,6 +354,7 @@ nav button:hover{
 .progress-line.css span::after{content: "60%";}
 .progress-line.js span::after{content: "40%";}
 .progress-line.java span::after{content: "50%";}
+.progress-line.talend span::after{content: "50%";}
 .about-extension-3{
     background-color: var(--c-red1);
     padding-bottom: 100px;
